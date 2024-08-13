@@ -1,28 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrarse</title>
-    <link rel="stylesheet" href="registrarse.css">
-</head>
-<body>
-    <section>
-            <form action="http://ocuello.corsajetec.com/gym2/scripts/registrar.php" method="post" enctype="multipart/form-data">
-                <div class="title">
-                    <h2 class="m-0">Crear una Cuenta</h2>
-                    <hr>
-                </div>
-                <input type="text" placeholder="Nombre Usuario" name="usuario" required>
-                <input type="password" placeholder="Contraseña" name="contrasenia" required>
-                <input type="text" placeholder="Ingrese su Telefono" name="telefono" required>
-                <input type="text" placeholder="Ingrese su Correo" name="correo" required>
-                <div>
-                    <label for="foto">Ingrese su Foto:</label>
-                </div>
-                <input id="foto" type="file" name="foto" required>
-                <button><h2>REGISTRAR</h2></button>
-            </form>
-    </section>
-</body>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registrarse</title>
+
+    <link rel="stylesheet" href="registrarse.css">
+
+</head>
+
+<body>
+
+    <section>
+
+            <form action="../scripts/registrar.php" method="post" enctype="multipart/form-data">
+
+                <div class="title">
+
+                    <h2 class="m-0">Crear una Cuenta</h2>
+
+                    <hr>
+
+                </div>
+
+                <input type="text" placeholder="Nombre Usuario" name="usuario" required>
+
+                <input type="password" placeholder="Contraseña" name="contrasenia" required>
+
+                <input type="text" placeholder="Ingrese su Telefono" name="telefono" required>
+
+                <input type="text" placeholder="Ingrese su Correo" name="correo" required>
+
+                <div>
+
+                    <label for="foto">Ingrese su Foto:</label>
+
+                </div>
+
+                <input id="foto" type="file" name="foto" required>
+
+                <button><h2>REGISTRAR</h2></button>
+
+            </form>
+
+    </section>
+
+</body>
+
 </html>
