@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.modal-content {
+  background-color: #3d4447;
+  color: rgb(221, 218, 218);
+}
+
+
+.modal-content .modal-body .inputs {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.modal-content .modal-body .inputs .dos {
+  display: flex;
+  gap: 1rem;
+  padding: 0rem 1rem;
+
+}
+.modal-content .modal-body .inputs div {
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding: 0rem 1rem;
+}
+.modal-content .modal-body .inputs div input, main .modal-content .modal-body .inputs div select {
+  background-color: rgba(75, 82, 85, 0.7529411765);
+  border-color: transparent;
+  color: rgb(236, 236, 236);
+  padding: 0.8rem 1rem;
+  transition: 0.35s ease-in;
+}
+.modal-content .modal-body .inputs div input:hover, main .modal-content .modal-body .inputs div select:hover {
+  background-color: rgba(84, 91, 94, 0.7529411765);
+  border-color: rgb(202, 202, 202);
+}
+.modal-content .modal-body .inputs div input::-moz-placeholder, main .modal-content .modal-body .inputs div select::-moz-placeholder {
+  color: #ccc;
+}
+.modal-content .modal-body .inputs div input::placeholder, main .modal-content .modal-body .inputs div select::placeholder {
+  color: #ccc;
+}
+.modal-content .modal-body .inputs div input:focus, main .modal-content .modal-body .inputs div select:focus {
+  box-shadow: 0 0 0;
+}
+.modal-content .modal-body .inputs div span {
+  background-color: rgba(108, 113, 116, 0.7529411765);
+  color: rgb(236, 236, 236);
+  border-color: transparent;
+}/*# sourceMappingURL=usuarios.css.map */

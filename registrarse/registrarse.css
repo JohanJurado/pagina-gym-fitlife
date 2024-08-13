@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161717;
+}
+body form {
+  width: 100%;
+  max-width: 400px;
+  gap: 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 0.5px solid rgba(233, 229, 107, 0.6862745098);
+  background-color: #161717;
+  padding: 2.5rem 3rem;
+  box-shadow: 0 0 2rem rgba(255, 255, 255, 0.425);
+  border-radius: 1rem;
+}
+body form .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body form .title h2 {
+  color: rgb(218, 212, 212);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+body form .title hr {
+  width: 70%;
+  margin: 1rem 0rem 1.2rem 0rem;
+}
+body form div {
+  width: 90%;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  color: rgb(235, 229, 229);
+  margin-bottom: -0.7rem;
+  font-weight: 500;
+}
+body form input {
+  width: 80%;
+  background-color: #242424;
+  outline: none;
+  border: 0.5px solid transparent;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.2s ease-in-out;
+  caret-color: white;
+  color: rgba(255, 255, 255, 0.904);
+}
+body form input:hover {
+  background-color: #3b3b3b;
+  cursor: pointer;
+  border-color: rgba(252, 252, 252, 0.3411764706);
+  box-shadow: #e0dc60 0 0 8px;
+}
+body form input:focus {
+  border-color: rgba(233, 229, 107, 0.7882352941);
+  box-shadow: #e0dc60 0 0 10px;
+}
+body form input::-moz-placeholder {
+  color: rgba(175, 172, 172, 0.808);
+}
+body form input::placeholder {
+  color: rgba(175, 172, 172, 0.808);
+}
+body form button {
+  width: 93%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: rgba(121, 119, 119, 0.63);
+  color: rgb(235, 232, 232);
+}
+body form button:hover {
+  border-color: #e0dc60;
+  background-color: transparent;
+  transition: 0.3s ease;
+  color: #e0dc60;
+  box-shadow: #e0dc60 0 0 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=registrarse.css.map */

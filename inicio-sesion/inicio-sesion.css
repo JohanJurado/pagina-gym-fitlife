@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/inicio-sesion/fondo-inicio-sesion.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 20%;
+}
+body section {
+  width: 70%;
+  max-width: 1200px;
+  height: 70%;
+  display: flex;
+  position: relative;
+}
+body section .img {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 1.2rem;
+  justify-content: end;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/inicio-sesion/fondo-pantalla-dividida-inicio-sesion.jpg");
+  background-size: 80%;
+  background-position-x: -50%;
+  background-repeat: no-repeat;
+  border: 3px solid #FFF700;
+  border-right: 0px;
+}
+body section .img form {
+  flex: 0.5;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  border-radius: 1.2rem;
+  background-color: #0F0D0D;
+  border: 3px solid #FFF700;
+}
+body section .img form h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #FFF700;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+body section .img form hr {
+  width: 40%;
+  height: 0.5%;
+  border-color: #FFF700;
+  background-color: #FFF700;
+  margin-bottom: 2rem;
+}
+body section .img form input {
+  width: 80%;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(64, 64, 64);
+  outline: none;
+  border: 1px solid transparent;
+  box-shadow: 0 0 0.3rem rgba(255, 247, 0, 0.9529411765);
+  caret-color: #ffe600;
+  font-family: "Montserrat", sans-serif;
+  color: #FFF700;
+}
+body section .img form input::-moz-placeholder {
+  color: rgba(255, 247, 0, 0.7333333333);
+}
+body section .img form input::placeholder {
+  color: rgba(255, 247, 0, 0.7333333333);
+}
+body section .img form input:hover {
+  border-color: rgba(255, 247, 0, 0.4862745098);
+  transition: 0.3s ease-in-out;
+}
+body section .img form input:focus {
+  border-color: rgba(255, 247, 0, 0.9098039216);
+  transition: 0.2s ease-in-out;
+}
+body section .img form button {
+  width: 90%;
+  background-color: transparent;
+  color: #ece506;
+  padding: 0.7rem 3rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-radius: 0.8rem;
+  border: 2px solid #ece506;
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+}
+body section .img form button:hover {
+  color: rgba(255, 255, 255, 0.849);
+  border-color: rgba(255, 255, 255, 0.822);
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  background-color: rgba(255, 247, 0, 0.3098039216);
+}
+body section .img form p {
+  color: #FFF700;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+}
+body section .img form p a {
+  color: #FFF700;
+}
+body section .img form p a:hover {
+  color: #a5a008;
+}/*# sourceMappingURL=inicio-sesion.css.map */

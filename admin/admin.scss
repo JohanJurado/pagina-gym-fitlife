@@ -1,0 +1,46 @@
+
+
+$montserrat: 'Montserrat', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4c4453;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    padding: 1.5rem 3rem;
+    border-bottom: 1px solid #ccc;
+    margin: 0px;
+    background-color: #20122e;
+    box-shadow: 0 0px 20px #9b9a9a94;
+
+    div{
+        display: flex;
+        justify-content: center;
+        flex: 1;
+
+        h2 {
+            font-family: $montserrat;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.822);
+            letter-spacing: 0.2rem;
+            text-align: center;
+        }
+    }
+
+    .start {
+        justify-content: start;
+    }
+
+}
+
+main {
+    width: 100%;
+    
+}
